@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<!-- Parameters used by tests at runtime -->
+	<TestRunParameters>
+		<Parameter name="Browser" value="Chrome" />
+		<Parameter name="Environment" value="Dev" />
+		<Parameter name="RemoteWebDriverMode" value="false" />
+		<Parameter name="HeadlessMode" value="true" />
+	</TestRunParameters>
+	<!-- Adapter Specific sections -->
+	<NUnit>
+		<NumberOfTestWorkers>1</NumberOfTestWorkers>
+	</NUnit>
+</RunSettings>
